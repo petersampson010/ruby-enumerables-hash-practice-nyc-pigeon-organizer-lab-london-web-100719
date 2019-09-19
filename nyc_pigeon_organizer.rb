@@ -5,10 +5,6 @@ def nyc_pigeon_organizer(data)
     gender_array = item[:gender]
     lives_array = item[:lives]
     gender_array.each do |gender, names|
-      
-      
-        
-     
    end
  end 
  return new_hash

@@ -3,11 +3,7 @@ def nyc_pigeon_organizer(data)
   data.each do |section, section_hash|#3times
     section_hash.each do |sub_section, names_array|
       names_array.each do |name|
-        if new_hash.include?(name)
-          new_hash[name][section] => sub_section
-        else
-          new_hash[name] = {section => sub_section
-        end 
+        new_hash[name][section] = sub_section
       end 
     end 
   end

@@ -4,9 +4,9 @@ def nyc_pigeon_organizer(data)
     section_hash.each do |sub_section, names_array|
       names_array.each do |name|
         if new_hash.include?(name)
-          name[section] => sub_section
+          new_hash[name][section] => sub_section
         else
-          name_array = {}
+          name = {}
           name[section] => sub_section
         end 
       end 

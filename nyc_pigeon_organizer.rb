@@ -1,4 +1,9 @@
 def nyc_pigeon_organizer(data)
-  data.each do |section, 
+  new_hash = {}
+  data.each do |section, section_hash|#3times
+    section_hash.each do |sub_section, names_array|
+      names_array.each do |name|
+        
+        
 
 

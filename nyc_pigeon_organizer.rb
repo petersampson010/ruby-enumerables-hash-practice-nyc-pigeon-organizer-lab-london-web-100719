@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
       end 
     end 
   end 
-  
+  data[:color].each do 
 end 
 
 

@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
   end 
   data[:color].each do |colors, pigeons|
     pigeons.each do |pigeon|
-      if pigeon = 
+      new_hash[:pigeon]
 end 
 
 

@@ -5,11 +5,10 @@ def nyc_pigeon_organizer(data)
       names_array.each do |name|
         if new_hash.include?(name)
           name[section] => sub_section
-        else 
-          name = {}
+        else
+          name_array = {}
           name[section] => sub_section
         end 
-        new_hash << name
       end 
     end 
   end

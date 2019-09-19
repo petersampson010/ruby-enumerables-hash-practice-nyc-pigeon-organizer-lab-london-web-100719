@@ -21,7 +21,8 @@ def nyc_pigeon_organizer(data)
   data[:gender].each do |genders, pigeons|
     pigeons.each do |pigeon|
       new_hash.each do |x|
-        if pigeon === e
+        if pigeon === x 
+          new_hash[x][:gender] << 
 end 
 
 

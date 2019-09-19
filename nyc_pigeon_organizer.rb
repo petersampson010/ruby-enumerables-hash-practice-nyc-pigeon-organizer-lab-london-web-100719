@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
       end 
     end 
   end 
-  
+  = new_hash.keys
   data[:color].each do |colors, pigeons|
     pigeons.each do |pigeon|
       new_hash.each do |x|

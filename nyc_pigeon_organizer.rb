@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
     end 
   end 
   data[:location].each do |l, l_array|
-    l_array.each do 
+    l_array.each do |
     end 
   end 
   return new_hash

@@ -1,6 +1,6 @@
 def nyc_pigeon_organizer(data)
   new_hash = {}
   data.each do |item, other|
-    other.each do |
+    other.each do |category, ar
 end 
 

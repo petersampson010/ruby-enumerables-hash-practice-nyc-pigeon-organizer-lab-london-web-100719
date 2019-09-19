@@ -6,7 +6,8 @@ def nyc_pigeon_organizer(data)
     end 
   end 
   data[:color].each do |c, c_array|
-    c_arra
+    c_array.each do |name|
+      new_hash[name ]
   return new_hash
 end 
 

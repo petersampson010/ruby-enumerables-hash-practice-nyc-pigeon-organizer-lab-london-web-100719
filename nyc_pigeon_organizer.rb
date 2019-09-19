@@ -32,6 +32,11 @@ def nyc_pigeon_organizer(data)
       new_hash.each do |x|
         if pigeon === x 
           new_hash[x][:lives] << live.to_s
+        end 
+      end 
+    end 
+  end 
+  return new_hash
 end 
 
 

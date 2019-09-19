@@ -4,6 +4,13 @@ def nyc_pigeon_organizer(data)
     section_hash.each do |sub_section, names_array|
       names_array.each do |name|
         new_hash[name][:color] = []
+        new_hash[name][:gender] = []
+        new_hash[name][:lives] = []
+      end 
+    end 
+  end 
+  return new_hash
+end 
         
 
 

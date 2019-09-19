@@ -1,41 +1,4 @@
 def nyc_pigeon_organizer(data)
-  new_hash = {}
-  data.each do |item, other|
-    other.each do |section, array|
-      array.each do |name|
-        new_hash[name] = {:color => [], :gender => [], lives => []}
-      end 
-    end 
-  end 
-  y = new_hash.keys
-  data[:color].each do |colors, pigeons|
-    pigeons.each do |pigeon|
-      y.each do |x|
-        if pigeon === x 
-          new_hash[x][:color] << colors.to_s
-        end 
-      end 
-    end 
-  end 
-  data[:gender].each do |genders, pigeons|
-    pigeons.each do |pigeon|
-      y.each do |x|
-        if pigeon === x 
-          new_hash[x][:gender] << genders.to_s
-        end 
-      end 
-    end 
-  end 
-  data[:lives].each do |live, pigeons|
-    pigeons.each do |pigeon|
-      y.each do |x|
-        if pigeon === x 
-          new_hash[x][:lives] << live.to_s
-        end 
-      end 
-    end 
-  end 
-  return new_hash
-end 
+  
 
 

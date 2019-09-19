@@ -6,16 +6,14 @@ def nyc_pigeon_organizer(data)
         if new_hash.include?(name)
           name[section] => sub_section
         else 
-          
-          
-          
-  
+          name = {}
+          name[section] => sub_section
         end 
+        new_hash << name
       end 
     end 
-  end 
-  return new_hash
+  end
+  
 end 
-        
 
 

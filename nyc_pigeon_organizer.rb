@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
     pigeons.each do |pigeon|
       new_hash.each do |x|
         if pigeon === x 
-          
+          new_hash[]
 end 
 
 
